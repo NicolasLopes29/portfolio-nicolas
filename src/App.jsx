@@ -95,6 +95,7 @@ function App() {
           </ul>
         </nav>
       </header>
+      <section className='hero'>
       <div className='container'>
         <div className="keyboard">
           <span className="key">N</span>
@@ -144,6 +145,11 @@ function App() {
           </svg>
         </div>
       </div>
+      </section>
+
+      <section className='projetos'>
+
+    </section>
     </>
   );
 }

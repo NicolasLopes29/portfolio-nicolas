@@ -123,7 +123,6 @@ function App() {
           <p>Sou entusiasta e proativo, com interesse em desenvolver habilidades técnicas e práticas na área de TI e com vontade de aprender e obter crescimento profissional, buscando oportunidades de aprendiz e estágio na área para começar minha carreira profissional.</p>
           <div className='social-links'>
             <div className='social-icons'>
-              <h1>Minhas Redes</h1> <br />
               <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
                 <FaLinkedin size={40} />
               </a> <br />
@@ -148,7 +147,30 @@ function App() {
       </section>
 
       <section className='projetos'>
-
+        <h1>Meus Projetos</h1>
+    </section>
+    <section className='tecnologia'>
+    <div className='tecnologia-container'>
+  <h1>Sobre a tecnologia</h1>
+  <hr/>
+  <p>
+    As tendências atuais no mundo da tecnologia incluem o uso de tecnologias avançadas e a colaboração entre pessoas de diferentes profissoes, o que torna o desenvolvimento de software uma atividade interessante e emocionante.
+  </p>
+  <div className="video-container">
+    <iframe 
+      width="560" 
+      height="315" 
+      src="https://www.youtube.com/embed/SAnVbn1CThU" 
+      title="YouTube video player" 
+      frameBorder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowFullScreen>
+    </iframe>
+  </div>
+</div>
+    </section>
+    <section className='projetos-senac'>
+        <h1>Meus Projetos do Senac</h1>
     </section>
     </>
   );
